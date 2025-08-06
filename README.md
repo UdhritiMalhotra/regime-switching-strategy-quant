@@ -2,8 +2,6 @@
 
 This project implements a regime-aware quantitative trading strategy using Hidden Markov Models (HMMs) to detect and adapt to market regimes (e.g., "crisis" vs. "normal"). The goal is to build a backtestable signal and visualize strategy performance on fixed-income ETFs.
 
----
-
 ## Project Overview
 
 The strategy focuses on identifying regime shifts in the corporate bond market using:
@@ -11,8 +9,6 @@ The strategy focuses on identifying regime shifts in the corporate bond market u
 - **Asset:** [iShares iBoxx $ Investment Grade Corporate Bond ETF (LQD)](https://www.ishares.com/us/products/239566/ishares-iboxx-investment-grade-corporate-bond-etf)
 - **Model:** Gaussian Hidden Markov Model (HMM)
 - **Objective:** Classify market states to enable regime-dependent trading logic
-
----
 
 ## Context: Black Swan Risk Research
 
@@ -26,8 +22,6 @@ By applying a Hidden Markov Model to corporate bond price data, the strategy aim
 - Expose the fragility of bond markets during volatility spikes
 - Inform more adaptive, risk-aware allocation strategies
 
----
-
 ## Key Components
 
 - `regime_switching_strategy.py`  
@@ -36,11 +30,6 @@ By applying a Hidden Markov Model to corporate bond price data, the strategy aim
   - Fits a 2-regime Gaussian HMM
   - Classifies each data point into a regime
   - Visualizes closing prices colored by regime
-
-- `icbc_simulation.py`  
-  - [Your brief explanation of what this does — placeholder]
-
----
 
 ## Sample Output
 
