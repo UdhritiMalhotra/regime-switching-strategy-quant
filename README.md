@@ -4,7 +4,7 @@ This project implements a regime-aware quantitative trading strategy using Hidde
 
 ---
 
-## 📈 Project Overview
+## Project Overview
 
 The strategy focuses on identifying regime shifts in the corporate bond market using:
 
@@ -14,7 +14,7 @@ The strategy focuses on identifying regime shifts in the corporate bond market u
 
 ---
 
-## ✍️ Context: Black Swan Risk Research
+## Context: Black Swan Risk Research
 
 This project was developed as a technical complement to an article I'm writing on **Black Swan risk** in corporate debt markets — part of an upcoming series on hidden risks in financial systems.
 
@@ -28,7 +28,7 @@ By applying a Hidden Markov Model to corporate bond price data, the strategy aim
 
 ---
 
-## 🧠 Key Components
+## Key Components
 
 - `regime_switching_strategy.py`  
   - Loads historical price data for LQD via `yfinance`
@@ -42,18 +42,8 @@ By applying a Hidden Markov Model to corporate bond price data, the strategy aim
 
 ---
 
-## 📊 Sample Output
+## Sample Output
 
 The script produces a visual output like the one below, with prices colour-coded based on the predicted regime (normal or crisis):
 
 > *(Insert output plot or example image here)*
-
----
-
-## 🛠 Installation
-
-### 1. Clone the repo
-
-```bash
-git clone https://github.com/yourusername/regime-switching-quant.git
-cd regime-switching-quant
