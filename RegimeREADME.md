@@ -35,4 +35,4 @@ By applying a Hidden Markov Model to corporate bond price data, the strategy aim
 
 The script produces a visual output like the one below, with prices colour-coded based on the predicted regime (normal or crisis):
 
-![Regime Classification Output](regime_plot.png)
+![Regime Classification Output](regime.png)
